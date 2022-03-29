@@ -2,7 +2,7 @@
 
 This is an incomplete React app bootstrapped with Create React App with Typescript for Usabl testers to test the functionality of the [@trycourier/react-toast](https://github.com/trycourier/courier-react/tree/main/packages/react-toast) package.
 
-[@trycourier/react-provider](https://github.com/trycourier/courier-react/tree/main/packages/react-provider) is a dependency that handles all the authentication and integration with the Courier backend.
+It requires [@trycourier/react-provider](https://www.npmjs.com/package/@trycourier/react-provider), [@trycourier/react-toast](https://www.npmjs.com/package/@trycourier/react-toast), and [@trycourier/react-inbox](https://www.npmjs.com/package/@trycourier/react-inbox), but you will have to install these yourself.
 
 The only other additional dependencies are [chakra-ui](https://chakra-ui.com) and [Formik](https://chakra-ui.com) which are used to quickly build the demo form that will let you quickly configure and trigger a standalone local notification.
 
