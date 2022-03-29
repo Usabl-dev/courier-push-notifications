@@ -61,6 +61,10 @@ const App = ({ courierUserId }: AppProps) => {
 
       {/* Toast goes here */}
 
+      {/* This is a pre-built form that allows you to submit data
+      for your Courier notification. You do not need to alter
+      any of the following code. */}
+
       <Heading as="h4" size="md" textAlign="center">
         Welcome to the React In-App Toast App.
       </Heading>
