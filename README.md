@@ -4,7 +4,9 @@ This is an incomplete React app bootstrapped with Create React App with Typescri
 
 It requires [@trycourier/react-provider](https://www.npmjs.com/package/@trycourier/react-provider), [@trycourier/react-toast](https://www.npmjs.com/package/@trycourier/react-toast), and [@trycourier/react-inbox](https://www.npmjs.com/package/@trycourier/react-inbox), but you will have to install these yourself.
 
-The only other additional dependencies are [chakra-ui](https://chakra-ui.com) and [Formik](https://chakra-ui.com) which are used to quickly build the demo form that will let you quickly configure and trigger a standalone local notification.
+The only front-end other additional dependencies are [chakra-ui](https://chakra-ui.com) and [Formik](https://chakra-ui.com) which are used to quickly build the demo form that will let you quickly configure and trigger a standalone local notification.
+
+It uses Netlify to serve a back-end API which makes and handles the API call to Courier's notification endpoint. You do not have to write any back-end code.
 
 ## Online Demo
 
